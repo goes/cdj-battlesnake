@@ -8,4 +8,4 @@ Om dat te doen bouw je een slang die zelf moet beslissen waarheen hij gaat op he
 
 Klinkt misschien een beetje ingewikkeld, maar met de hulp van deze tutorial lukt dat wel!
 
-![BattleSnake logo][{{site.url}}/assets/images/battlesnake-full-logo.svg]
+![battlesnake-logo][/assets/images/battlesnake-full-logo.svg]
