@@ -2,6 +2,7 @@ title: "BattleSnake"
 remote_theme: pmarsceill/just-the-docs
 color_scheme: "light"
 search_enabled: true
+url: https://goes.github.io/cdj-battlesnake/
 
 # Aux links for the upper right navigation
 aux_links:
