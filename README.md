@@ -1,3 +1,9 @@
+---
+title: "Welkom"
+has_children: false
+nav_order: 1
+---
+
 ## Welkom
 
 **Battlesnake** is een platform en multiplayer spel waarin je je eigen slang loslaat om uitdagingen aan te gaan of om te strijden tegen de slang van je vrienden of van mensen over heel de wereld.  
