@@ -37,18 +37,22 @@ Gebruik de variabelen ```self.height``` en ```self.width``` en programmeer het p
 ```
 
 <details>
-  <summary>:bulb: Tip</summary>
+  <summary>Tip</summary>
+  <p>
 ```for x in ...``` en ```range(n)``` kunnen hier van pas komen.
+    </p>
 </details>
 
 <details>
   <summary>Lukt het niet? Klik hier om een oplossing te zien.</summary>
-  <code>
+  <p>
+   ```python
       def print(self):
         for h in range(self.height):
             line = ''
             for w in range(self.width):
               line = line + '# '
             print(line)
-  </code>
+    ```
+  </p>
 </details>
