@@ -39,20 +39,26 @@ Gebruik de variabelen ```self.height``` en ```self.width``` en programmeer het p
 <details>
   <summary>Tip</summary>
   <p>
+
 ```for x in ...``` en ```range(n)``` kunnen hier van pas komen.
-    </p>
+
+</p>
 </details>
 
 <details>
   <summary>Lukt het niet? Klik hier om een oplossing te zien.</summary>
   <p>
-   ```python
+
+```python
       def print(self):
         for h in range(self.height):
             line = ''
             for w in range(self.width):
               line = line + '# '
             print(line)
-    ```
+```
+
   </p>
 </details>
+
+# Beter bord

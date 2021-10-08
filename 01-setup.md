@@ -27,13 +27,4 @@ Je kan er je code aanpassen, maar ook laten draaien, zodat de BattleSnake server
 - Kies nu **Authorize Replit Online IDE**
 - Als alles goed is ben je nu ingelogd in Replit, en zie je een tamelijk lege pagina
 
-# 3. Een eerste slang
-**BattleSnake** heeft een paar start-projecten waar we kunnen mee beginnen.
-Wij kiezen voor de Replit / Python startvoorbeeld.
-
-- [Open het Python Starter Project in Replit](https://repl.it/github/BattlesnakeOfficial/starter-snake-python){:target="_blank"}
-
-
-Meer uitleg op [de BattleSnake quistart guide](https://docs.battlesnake.com/guides/getting-started)
-
 
