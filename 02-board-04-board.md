@@ -39,7 +39,7 @@ Daarom gaan we het bord __initialiseren__ met die variabelen.
 Daarvoor maken we een __method__ aan met een speciale naam die we niet zelf kunnen kiezen:```def __init__(self):```.
 ```python
 class Board:
-    
+
     def __init__(self):
         self.height = 8
 ```
@@ -59,12 +59,22 @@ In ons voorbeeld wordt de hoogte ```self.height``` op de waarde 8 gezet.
 # Een Board gebruiken
 Nu we in bestand __board.py__ een klasse ```Board``` met een ```width``` en een ```height``` hebben, kunnen we dat bord gaan gebruiken in ons programma.
 
-Open terug main.py en voeg een extra import lijn toe bovenaan.
-```python from board import Board```
+Open terug main.py en voeg een extra import lijn toe bovenaan.  
+
+```python
+from board import Board
+```
+
 Hiermee kunnen we onze klasse Board gaan gebruiken.
+
 Dat doen we door een nieuw Board in een variabele te steken.
-```python new_board = Board()```
+
+```python
+new_board = Board()
+```
+
 Eens dat gebeurd is, kunnen we ```new_board``` gebruiken en bijvoorbeeld de hoogte en breedt printen in de console.
+
 ```python
 print(new_board.height)
 ```
