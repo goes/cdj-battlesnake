@@ -1,6 +1,6 @@
 ---
 title: "Stap 2: Het speelbord"
-has_children: false
+has_children: true
 nav_order: 3
 ---
 
