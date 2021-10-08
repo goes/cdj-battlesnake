@@ -7,7 +7,7 @@ nav_order: 4
 
 # board.py
 Maak nu een nieuw bestand aan en noem het __board.py__.  
-Als alles goed zit hebben we nu devolgende structuur in ons project:
+Als alles goed zit hebben we nu de volgende structuur in ons project:
 ```
 |_ main.py
 |_ board.py
@@ -17,11 +17,11 @@ Als alles goed zit hebben we nu devolgende structuur in ons project:
 Nu begint het echte werk!
 Open __board.py__.
 
-We gaan een klasse Board maken die alle nodig gegevens van het speelbord kent, en die het bord ook kan printen in de console.
+We gaan een klasse Board maken die alle nodig gegevens van het speelbord kent en die het bord ook kan printen in de console.
 Een klasse maak je om een aantal variabelen op een gestructureerde manier bij elkaar te houden, maar een klasse kan ook bepaalde functies bevatten die vanalles met die variabelen kunnen doen.
 
 Een goed voorbeeld is een klasse __Persoon__ met variabele __geboortedatum__ en een functie __leeftijd()__.
-Die functie kan dan aan de hand van de geboortedatum berekenen hoe oud de persoon is.
+De functie __leeftijd()__ kan dan aan de hand van de geboortedatum berekenen hoe oud de persoon is.
 
 
 Een klasse maak je met het sleutelwoord `class`.
@@ -36,10 +36,9 @@ Het speelbord in het spel heeft een breedte en een hoogte, en dat zijn 2 variabe
 Om te beginnen gaan we doen alsof het bord altijd 5 vakjes breed is en 8 vakjes hoog.  
 Daarom gaan we het bord __initialiseren__ met die variabelen.
 
-Daarvoor maken we een __method__ aan met een speciale naam die we niet zelf kunnen kiezen:`def __init__(self):`.
+Daarvoor maken we een __method__ aan met een speciale naam die we niet zelf kunnen kiezen: `def __init__(self):`.
 ```python
 class Board:
-
     def __init__(self):
         self.height = 8
 ```
