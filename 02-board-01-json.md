@@ -40,19 +40,19 @@ We noemen de dingen die we met JSON beschrijven __objecten__.
 In het voorbeeld staan 4 objecten. Zie je dewelke?
 
 Eigenschappen van objecten noemen we __attributen__.
-De naam van de attributen wordt de __key__ genoemd en staat telkens tussen aanhalingstekens: ```"..."```.
-Tussen 2 attributen staat altijd een ```,``` (komma).
+De naam van de attributen wordt de __key__ genoemd en staat telkens tussen aanhalingstekens: `"..."`.
+Tussen 2 attributen staat altijd een `,` (komma).
 
 De waarde van die attributen, de __value__, staat soms tussen __" "__ en soms niet. Dat hangt van het __type__ af.    
 Dit zijn de types:
 
 | Type | Voorbeeld | Info |
-| ---- | --------- | ---- |
+|:-----|:----------|:-----|
 | __Number__ | <code lang="json">{"leeftijd" : 12}</code> | |
 | __String__ | <code lang="json">{"naam" : "Ninja"}</code> | Met aanhalingstekens |
-| __Boolean__ | <code lang="json">{"coderdojo_lid" : true}</code> | ```true``` of ```false``` |
-| __Array__ | <code lang="json">"lievelingskleuren" : ["wit", "blauw"]</code> | Een Array is een lijst. Een lege lijst schrijf je als  ```[]```. Gebruik komma's tussen de elementen. In een Array kunnen ook andere objecten zitten, zoals bij de huisdieren. |
-| __Object__ | <code lang="json">{"woonplaats" : {...}}</code> | Tussen ```{}```. Woonplaats is dus een object met 2 eigen attributen. |
+| __Boolean__ | <code lang="json">{"coderdojo_lid" : true}</code> | `true` of `false` |
+| __Array__ | <code lang="json">"lievelingskleuren" : ["wit", "blauw"]</code> | Een Array is een lijst. Een lege lijst schrijf je als  `[]`. Gebruik komma's tussen de elementen. In een Array kunnen ook andere objecten zitten, zoals bij de huisdieren. |
+| __Object__ | <code lang="json">{"woonplaats" : {...}}</code> | Tussen `{}`. Woonplaats is dus een object met 2 eigen attributen. |
 | __null__ | <code lang="json">{"nickname" : null}</code> | Een lege waarde. Onze Ninja hier heeft dus nog geen nickname :-( |
 
 

@@ -24,7 +24,7 @@ Een goed voorbeeld is een klasse __Persoon__ met variabele __geboortedatum__ en 
 Die functie kan dan aan de hand van de geboortedatum berekenen hoe oud de persoon is.
 
 
-Een klasse maak je met het sleutelwoord ```class```.
+Een klasse maak je met het sleutelwoord `class`.
 Klassenamen beginnen altijd met een hoofdletter.  
 De klasse voor on speelbord wordt dus:  
 ```python
@@ -36,7 +36,7 @@ Het speelbord in het spel heeft een breedte en een hoogte, en dat zijn 2 variabe
 Om te beginnen gaan we doen alsof het bord altijd 5 vakjes breed is en 8 vakjes hoog.  
 Daarom gaan we het bord __initialiseren__ met die variabelen.
 
-Daarvoor maken we een __method__ aan met een speciale naam die we niet zelf kunnen kiezen:```def __init__(self):```.
+Daarvoor maken we een __method__ aan met een speciale naam die we niet zelf kunnen kiezen:`def __init__(self):`.
 ```python
 class Board:
 
@@ -44,20 +44,20 @@ class Board:
         self.height = 8
 ```
 
-```def``` betekent dat er een methode aankomt, en tussen de haakjes ```()``` komt altijd ```self```.  
-Een methode eindigt ook altijd op een ```:```.
+`def` betekent dat er een methode aankomt, en tussen de haakjes `()` komt altijd `self`.  
+Een methode eindigt ook altijd op een `:`.
 
-LET OP! In Python is het belangrijk dat je 4 spaties inspringt als je een ```method``` binnen een ```class``` definieert.
-Ook de code binnen de ```method``` moet telkens 4 spaties inspringen.
+LET OP! In Python is het belangrijk dat je 4 spaties inspringt als je een `method` binnen een `class` definieert.
+Ook de code binnen de `method` moet telkens 4 spaties inspringen.
 
-In ons voorbeeld wordt de hoogte ```self.height``` op de waarde 8 gezet.
-```self``` betekent hier dat het een variabele van de klasse is.
+In ons voorbeeld wordt de hoogte `self.height` op de waarde 8 gezet.
+`self` betekent hier dat het een variabele van de klasse is.
 
---> Stel nu ook de breedte van het bord in op 5 vakjes in de variabele ```width``` .
+--> Stel nu ook de breedte van het bord in op 5 vakjes in de variabele `width` .
 
 
 # Een Board gebruiken
-Nu we in bestand __board.py__ een klasse ```Board``` met een ```width``` en een ```height``` hebben, kunnen we dat bord gaan gebruiken in ons programma.
+Nu we in bestand __board.py__ een klasse `Board` met een `width` en een `height` hebben, kunnen we dat bord gaan gebruiken in ons programma.
 
 Open terug main.py en voeg een extra import lijn toe bovenaan.  
 
@@ -73,7 +73,7 @@ Dat doen we door een nieuw Board in een variabele te steken.
 new_board = Board()
 ```
 
-Eens dat gebeurd is, kunnen we ```new_board``` gebruiken en bijvoorbeeld de hoogte en breedt printen in de console.
+Eens dat gebeurd is, kunnen we `new_board` gebruiken en bijvoorbeeld de hoogte en breedt printen in de console.
 
 ```python
 print(new_board.height)

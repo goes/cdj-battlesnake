@@ -38,11 +38,9 @@ Gebruik de variabelen ```self.height``` en ```self.width``` en programmeer het p
 
 <details>
   <summary>Tip</summary>
-  <p>
-
-```for x in ...``` en ```range(n)``` kunnen hier van pas komen.
-
-</p>
+<div class="code-example" markdown="1">
+`for x in ...` en `range(n)` kunnen hier van pas komen.
+</div>
 </details>
 
 <details>
@@ -60,3 +58,45 @@ Gebruik de variabelen ```self.height``` en ```self.width``` en programmeer het p
 </details>
 
 # Beter bord
+Zo'n bord met hashtags ziet er een beetje saai uit.  
+Maak er nu wat meer een "vakjesbord" van. Met de nodige plaats om later op zo'n vakje een eigenschap te kleven: hier is eten, hier is een slang, ...
+
+Pas nu je `print()` methode aan zodat je een output als hieronder krijgt.  
+Kijk goed: je print afwisselend 2 verschillende soorten lijnen nu.
+```
++---+---+---+---+---+
+|   |   |   |   |   |
++---+---+---+---+---+
+|   |   |   |   |   |
++---+---+---+---+---+
+|   |   |   |   |   |
++---+---+---+---+---+
+|   |   |   |   |   |
++---+---+---+---+---+
+|   |   |   |   |   |
++---+---+---+---+---+
+|   |   |   |   |   |
++---+---+---+---+---+
+|   |   |   |   |   |
++---+---+---+---+---+
+|   |   |   |   |   |
++---+---+---+---+---+
+```
+<details>
+  <summary>Lukt het niet? Klik hier om een oplossing te zien.</summary>
+<div class="code-example" markdown="1">
+```python
+    def print(self):
+        for h in range(self.height):
+            separator_line = '+'
+            line = '|'
+            for w in range(self.width):
+              separator_line = separator_line + '---+'
+              line = line + '   |'
+            print(separator_line)
+            print(line)
+        print(separator_line)
+```
+</div>
+</details>
+
