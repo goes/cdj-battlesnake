@@ -38,9 +38,11 @@ Daarom gaan we het bord __initialiseren__ met die variabelen.
 
 Daarvoor maken we een __method__ aan met een speciale naam die we niet zelf kunnen kiezen:```def __init__(self):```.
 ```python
+class Board:
+    
     def __init__(self):
         self.height = 8
-
+```
 
 ```def``` betekent dat er een methode aankomt, en tussen de haakjes ```()``` komt altijd ```self```.  
 Een methode eindigt ook altijd op een ```:```.
