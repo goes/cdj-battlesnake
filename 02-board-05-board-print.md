@@ -47,8 +47,7 @@ Gebruik de variabelen ```self.height``` en ```self.width``` en programmeer het p
 
 <details>
   <summary>Lukt het niet? Klik hier om een oplossing te zien.</summary>
-  <p>
-
+<div class="code-example" markdown="1">
 ```python
       def print(self):
         for h in range(self.height):
@@ -57,8 +56,7 @@ Gebruik de variabelen ```self.height``` en ```self.width``` en programmeer het p
               line = line + '# '
             print(line)
 ```
-
-  </p>
+</div>
 </details>
 
 # Beter bord
