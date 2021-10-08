@@ -3,6 +3,8 @@ remote_theme: pmarsceill/just-the-docs
 color_scheme: nil
 search_enabled: true
 
+permalink: pretty
+
 # Aux links for the upper right navigation
 aux_links:
   "BattleSnake":
