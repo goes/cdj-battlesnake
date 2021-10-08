@@ -15,7 +15,7 @@ Als je die al hebt, spring dan naar stap 2 hieronder.
 Op GitHub bewaren en delen miljoenen programmeurs hun code.  
 Met je GitHub gebruikersnaam kan je ook inloggen op _Battlesnake_ en _Replit_.
 
-Surf dus naar We beginnen met een [github.com](https://github.com/signup){:target="_blank"} en volg de stappen om een nieuw account aan te maken.
+Surf dus naar [github.com](https://github.com/signup){:target="_blank"} en volg de stappen om een nieuw account aan te maken.
 
 # 2. Log in op Replit
 Op **Replit** gaan we onze slang maken.  
@@ -25,6 +25,6 @@ Je kan er je code aanpassen, maar ook laten draaien, zodat de BattleSnake server
 - Om in te loggen kies **Continue with github**
 - Je komt op een pagina waar Replit vraagt of ze je kunnen laten inloggen met je Github account
 - Kies nu **Authorize Replit Online IDE**
-- Als alles goed is ben je nu ingelogd in Replit, en zie je een tamelijk lege pagina
+- Als alles goed is ben je nu ingelogd in Replit en zie je een tamelijk lege pagina
 
 
