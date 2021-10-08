@@ -6,7 +6,7 @@ nav_order: 1
 ---
 
 # 1. Jason? JSON!
-Alle informatie over het speelbord zullen we ontvangen in _JSON formaat_, spreek uit als Jason.  
+Alle informatie over het speelbord zullen we ontvangen in _JSON formaat_, spreek uit als "Jason".  
 Dat is een manier om structurele gegevens te noteren.  
 De J van JSON komt van Javascript, maar elke programmeertaal kan er ondertussen al mee om.  
 
