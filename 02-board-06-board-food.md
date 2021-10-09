@@ -81,7 +81,7 @@ value_2 = 'F'
 print(value_1_string + ' ' + value_2  + '.')
 ```
 
-:point_right: Je programma zou nu een bord moeten printen dat er zo uit ziet. Lukt dat?
+====> Je programma zou nu een bord moeten printen dat er zo uit ziet. Lukt dat?
 ```
 +---+---+---+---+---+
 | F |   |   |   | F |
@@ -102,7 +102,7 @@ print(value_1_string + ' ' + value_2  + '.')
 +---+---+---+---+---+
 ```
 
-:point_right: Probeer ook nog eens of alles werkt als je de hoogte en breedte van je spelbord verandert in de __init__ methode.
+====> Probeer ook nog eens of alles werkt als je de hoogte en breedte van je spelbord verandert in de __init__ methode.
 
 <details>
   <summary>Lukt het niet? Klik hier om een oplossing te zien.</summary>
