@@ -1,13 +1,13 @@
 ---
 title: Een Board printen
-parent: "Stap 2: Het speelbord"
+parent: "Stap 2: Het spelbord"
 has_children: false
 nav_order: 5
 ---
 
 # Het bord printen
 Om te zien of het spelbord correct in je programma zit gaan is het handig als je het in de console kan printen.
-Je zou een functie kunnen maken in __main.py__ dat het bord print, maar je hebt al een klasse ```Board``` die alle informatie over dat speelbord bevat, dus maak het printen als methode in die klasse.
+Je zou een functie kunnen maken in __main.py__ dat het bord print, maar je hebt al een klasse ```Board``` die alle informatie over dat spelbord bevat, dus maak het printen als methode in die klasse.
 
 
 Als eerste versie gaan we per vakje op van het bord een # printen.

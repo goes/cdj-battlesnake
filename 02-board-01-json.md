@@ -1,12 +1,12 @@
 ---
 title: Over JSON
-parent: "Stap 2: Het speelbord"
+parent: "Stap 2: Het spelbord"
 has_children: false
 nav_order: 1
 ---
 
 # 1. Jason? JSON!
-Alle informatie over het speelbord zullen we ontvangen in _JSON formaat_, spreek uit als "Jason".  
+Alle informatie over het spelbord zullen we ontvangen in _JSON formaat_, spreek uit als "Jason".  
 Dat is een manier om structurele gegevens te noteren.  
 De J van JSON komt van Javascript, maar elke programmeertaal kan er ondertussen al mee om.  
 
@@ -57,7 +57,7 @@ Dit zijn de types:
 
 
 # 2. BattleSnake JSON
-Zo ziet het BattleSnake speelbord er uit in JSON.
+Zo ziet het BattleSnake spelbord er uit in JSON.
 In een volgende stap gaan we dit helemaal inlezen en in Python variabelen steken, zodat we er ook iets mee kunnen doen.
 
 Kan je alvast de verschillende _objecten_ die je in het spel tegenkomt terugvinden?  
