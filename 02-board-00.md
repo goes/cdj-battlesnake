@@ -1,5 +1,5 @@
 ---
-title: "Stap 2: Het speelbord"
+title: "Stap 2: Het spelbord"
 has_children: true
 nav_order: 3
 ---

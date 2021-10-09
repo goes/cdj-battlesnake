@@ -1,6 +1,6 @@
 ---
 title: Een Board maken
-parent: "Stap 2: Het speelbord"
+parent: "Stap 2: Het spelbord"
 has_children: false
 nav_order: 4
 ---
@@ -17,7 +17,7 @@ Als alles goed zit hebben we nu devolgende structuur in ons project:
 Nu begint het echte werk!
 Open __board.py__.
 
-We gaan een klasse Board maken die alle nodig gegevens van het speelbord kent, en die het bord ook kan printen in de console.
+We gaan een klasse Board maken die alle nodig gegevens van het spelbord kent, en die het bord ook kan printen in de console.
 Een klasse maak je om een aantal variabelen op een gestructureerde manier bij elkaar te houden, maar een klasse kan ook bepaalde functies bevatten die vanalles met die variabelen kunnen doen.
 
 Een goed voorbeeld is een klasse __Persoon__ met variabele __geboortedatum__ en een functie __leeftijd()__.
@@ -26,13 +26,13 @@ Die functie kan dan aan de hand van de geboortedatum berekenen hoe oud de persoo
 
 Een klasse maak je met het sleutelwoord `class`.
 Klassenamen beginnen altijd met een hoofdletter.  
-De klasse voor on speelbord wordt dus:  
+De klasse voor on spelbord wordt dus:  
 ```python
 class Board:
 ```
 
 
-Het speelbord in het spel heeft een breedte en een hoogte, en dat zijn 2 variabelen die perfect bij onze klasse passen.  
+Het spelbord in het spel heeft een breedte en een hoogte, en dat zijn 2 variabelen die perfect bij onze klasse passen.  
 Om te beginnen gaan we doen alsof het bord altijd 5 vakjes breed is en 8 vakjes hoog.  
 Daarom gaan we het bord __initialiseren__ met die variabelen.
 

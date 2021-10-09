@@ -1,6 +1,6 @@
 ---
 title: Eten toevoegen
-parent: "Stap 2: Het speelbord"
+parent: "Stap 2: Het spelbord"
 has_children: false
 nav_order: 6
 ---
@@ -10,7 +10,7 @@ Het bord tot nu toe is tamelijk leeg.
 In deze stap ga je het wat meer inhoud geven.  We gaan namelijk naast lege vakjes ook vakjes met voedsel zien.
 
 Zoals je weet hebben we in Python ook __arrays__ of lijsten.
-Een speelbord kan je ook zien als een array, maar dan wel een array van arrays.
+Een spelbord kan je ook zien als een array, maar dan wel een array van arrays.
 
 Als de hoogte 8 is, en de breedte 5, dan hebben we hier een array van 8 andere arrays. Zoiets wordt ook wel een matrix genoemd, of een 2-dimensionale of 2D-array.
 Vaak wordt ook gezegd: deze matrix heeft 8 **rijen** (rows) en 5 **kolommen** (columns).

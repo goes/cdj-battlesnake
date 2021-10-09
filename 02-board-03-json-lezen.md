@@ -1,6 +1,6 @@
 ---
 title: JSON lezen
-parent: "Stap 2: Het speelbord"
+parent: "Stap 2: Het spelbord"
 has_children: false
 nav_order: 3
 ---
